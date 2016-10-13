@@ -2,7 +2,7 @@ require 'yaml'
 require 'http'
 
 # Create a API response dump
-credentials = YAML.load(File.read('credentials.yml'))
+credentials = YAML.load(File.read('config/credentials.yml'))
 nasa_response = {}
 results = {}
 
