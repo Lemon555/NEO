@@ -30,5 +30,5 @@ results[:daily_pic] = daily_pic
 results[:pic_explanation] = pic_explanation
 
 # Write File
-File.write('nasa_response.yml', nasa_response.to_yaml)
-File.write('results.yml', results.to_yaml)
+File.write('spec/fixtures/nasa_response.yml', nasa_response.to_yaml)
+File.write('spec/fixtures/results.yml', results.to_yaml)
