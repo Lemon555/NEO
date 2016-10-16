@@ -11,7 +11,7 @@ module NeoInfo
 			# Get the information of the asteroid
 			@nasa_api = nasa_api
 			@asteroid_id = id
-			asteroid_info = @nasa_api.ast_detail(@id)
+			asteroid_info = @nasa_api.ast_detail(@asteroid_id)
 			@name = asteroid_info['name']
 			@estimated_diameter = asteroid_info['estimated_diameter']
 		end
