@@ -16,4 +16,3 @@ module NasaAPI
 		end
 	end
 end
-
