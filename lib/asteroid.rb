@@ -1,6 +1,6 @@
 require_relative 'nasa_api'
 
-module NasaAPI
+module NeoInfo
 	# Set up some attributes of a specific asteroid
 	class Asteroid
 		attr_reader :asteroid_id

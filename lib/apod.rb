@@ -1,6 +1,6 @@
 require_relative 'nasa_api'
 
-module NasaAPI
+module NeoInfo
 	# The astronomy picture of the day.
 	class Apod
 		attr_accessor :pic_url, :pic_title, :pic_explanation

@@ -1,9 +1,9 @@
 require 'http'
 require 'json'
 
-module neo
+module NeoInfo
   # Service for all NASA API calls
-  class
+  class NasaApi
     NASA_URL = 'https://api.nasa.gov'
     API_VER = 'v1'
     NEO_API_URL = URI.join(NASA_URL, "neo/rest/#{API_VER}/")
@@ -33,7 +33,7 @@ module neo
     end
 
     def ast_detail(ast_id)
-      detail_response = HTTP.get(nasa_resourse_url(ast_id)),
+      detail_response = HTTP.get(nasa_resourse_url(ast_id),
                                 params: { api_key: api_key })
       JSON.load(detail_response.to_s)
     end

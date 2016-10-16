@@ -1,6 +1,6 @@
 require_relative 'nasa_api'
 
-module NasaAPI
+module NeoInfo
 	# Main class to setup a near-to-earth object
 	class Neos
 		attr_accessor :count, :neoData, :update_date
