@@ -6,7 +6,7 @@ module NasaAPI
 		attr_reader :asteroid_id
 		attr_accessor :name, :estimated_diameter
 
-		def initialize(api_token:, id)
+		def initialize(id, api_token:)
 			# Initialize API connection which required api token and asteroid_id
 			# Get the information of the asteroid
 			@asteroid_id = id
