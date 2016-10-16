@@ -1,3 +1,2 @@
-credentials.yml
-nasa_response.yml
-results.yml
+config/
+spec/fixtures/
